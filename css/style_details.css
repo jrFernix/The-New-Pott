@@ -1,0 +1,487 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* ---------- DETAILS ---------- */
+#details{
+	margin-bottom: 70px;
+}
+
+.imglarge{
+	cursor: pointer;
+	width: 100%;
+	height: 540px;
+	object-fit: cover;
+	object-position: center;
+}
+
+.details_smallimg img{
+	cursor: pointer;
+	margin-top: 30px;
+	width: 100%;
+	height: 60px;
+	object-fit: cover;
+	object-position: center;
+}
+
+.details_cont h6{
+	margin-bottom: 20px;
+}
+
+.details_cont h4{
+	margin-bottom: 20px;
+}
+
+.price_details{
+	font-family: BeVNProMedium;
+	font-size: 30px;
+	color: rgba(255,64,92,1.00);
+}
+.details_cont span{
+	color: rgba(148,148,148,1.00);
+	margin-bottom: 20px;
+	font-size: 16px;
+	text-decoration: line-through;
+}
+
+.details_cont hr{
+	border-color: rgba(217,224,33,1.00);
+}
+
+.details_cont form{
+	width: 100%;
+}
+
+#sortbyid{
+	width: 100%;
+	height: 42px;
+	padding-left: 30px;
+	box-sizing: border-box;
+	border: solid 1px rgba(202,202,202,1.00);
+	outline: none;
+}
+
+.buttons_added{
+	margin-top:20px;
+	width: 40%;
+    display: inline-flex;
+	border: solid 1px rgba(202,202,202,1.00);
+}
+
+.input-qty{
+	width: 100%;
+	border: none;
+	text-align: center;
+}
+
+.input-qty:focus{
+	outline: none;
+}
+
+.is-form{
+	width: 42px;
+	height: 42px;
+	overflow: hidden;
+	position: relative;
+	background-color: rgba(255,255,255,1.00);
+	border: none;
+	font-size: 20px;
+	outline: none;
+}
+
+.minus, .plus{
+	padding-left: 20px;
+	padding-right: 30px;
+}
+
+.is-form:hover{
+	background-color: rgba(217,224,33,1.00);
+}
+
+.notify{
+	margin-top: 10px;
+	color: rgba(174,179,26,1.00);
+	font-style: italic;
+}
+
+.wrapform{
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+#wrapid{
+	display: inline-block;
+	width: 22px;
+	height: 22px;
+	margin-right: 10px;
+	accent-color: rgba(217,224,33,1.00);
+	float: left;
+}
+
+.wrapid p{
+	display: inline-block;
+	font-size: 14px;
+	margin: 0;
+	padding: 0;
+	clear: both;
+}
+
+#details .buynow_details{
+	margin: 30px 0;
+	display: inline-block;
+	width: 100%;
+	text-align: center;
+	color: rgba(77,77,77,1.00);
+	padding: 11px 30px;
+	background-color: rgba(217,224,33,1.00);
+	text-decoration: none;
+	transition: all ease 0.3s;
+}
+
+#details .buynow_details:hover{
+	color: rgba(217,224,33,1.00);
+	background-color: rgba(77,77,77,1.00);
+	transition: all ease 0.3s;
+}
+
+#details .detail_store{
+	color: rgba(77,77,77,1.00);
+	font-family: BeVNProMedium;
+	text-decoration: none;
+	border-bottom: solid 1px rgba(77,77,77,0);
+	transition: all ease 0.3s;
+}
+
+#details .detail_store:hover{
+	color: rgba(174,179,26,1.00);
+	border-bottom: solid 1px rgba(174,179,26,1.00);
+	transition: all ease 0.3s;
+}
+
+.details_introduction{
+	margin-top: 70px;
+}
+
+/* ---------- PRODUCTS ---------- */
+#details_products{
+	margin-bottom: 30px;
+}
+
+#details_products hr{
+	border-color: rgba(217,224,33,1.00);
+}
+
+#details_products ul{
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+/* ---------- DIMENSIONS ---------- */
+#details_dimensions{
+	margin-bottom: 30px;
+}
+
+#details_dimensions hr{
+	border-color: rgba(217,224,33,1.00);
+}
+
+#details_dimensions ul{
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+/* ---------- RECOMMENDED FOR YOU ---------- */
+#details_recommended{
+	margin-bottom: 15px;
+}
+
+#details_recommended hr{
+	border-color: rgba(217,224,33,1.00);
+}
+
+.card_bestseller{
+	margin-top: 15px;
+	padding-top: 15px;
+	text-align: center;
+	border: solid 1px rgba(217,224,33,0);
+}
+
+.card_bestseller:hover{
+	border: solid 1px rgba(174,179,26,1.00);
+}
+
+.card_bestseller .img_overflow{
+	display: block;
+	overflow: hidden;
+	width: 100%;
+	height: 255px;
+	margin-bottom: 20px;
+}
+
+.card_bestseller img{
+	width: 100%;
+	height: 255px;
+	object-fit: cover;
+	transition: all ease 0.3s;
+}
+
+.card_bestseller:hover img{
+	transition: all ease 0.3s;
+	transform: scale(1.1);
+}
+
+.btn_buy{
+	padding-bottom: 15px;
+}
+
+.clear_both{
+	clear: both;
+}
+
+.artists{
+	padding: 0 15px 0;
+}
+#details_recommended .product_name{
+	text-decoration: none;
+	color: rgba(77,77,77,1.00);
+	transition: all ease 0.3s;
+	text-transform: uppercase;
+}
+
+#details_recommended .product_name:hover{
+	transition: all ease 0.3s;
+	color: rgba(174,179,26,1.00);
+}
+
+#details_recommended .product_price{
+	font-family: BeVNProLight;
+	padding: 0 15px 0;
+	margin: 0px;
+}
+
+.btn_buy{
+	opacity: 0;
+}
+
+.card_bestseller:hover .btn_buy{
+	opacity: 1;
+}
+	
+
+/* BUTTON: BUY NOW */
+#details_recommended .btn_buynow{
+	display: inline-block;
+	text-align: center;
+	color: #4D4D4D;
+	background-color: #D9E021;
+	padding-top: 8px;
+	height: 40px;
+	width: 65%;
+	padding-left: 30px;
+	padding-right: 30px;
+	border-radius: 5px;
+	text-decoration: none;
+	margin-top: 15px;
+	transition: all ease 0.3s;
+	float: left;
+}
+
+#details_recommended .btn_buynow:hover{
+	color: #D9E021;
+	background-color: #4D4D4D;
+	transition: all ease 0.3s;
+}
+
+/* BUTTON: ADD TO CART */
+#details_recommended .btn_addcart{
+	display: inline-block;
+	text-align: center;
+	color: #4D4D4D;
+	background-color: white;
+	padding-top: 6px;
+	height: 40px;
+	width: 30%;
+	padding-left: 25px;
+	padding-right: 25px;
+	border-radius: 5px;
+	text-decoration: none;
+	margin-top: 15px;
+	transition: all ease 0.3s;
+	float: right;
+	border: solid rgba(77,77,77,1.00) 1px;
+	box-sizing: border-box;
+}
+
+#details_recommended .btn_addcart:hover{
+	color: #D9E021;
+	background-color: #4D4D4D;
+	transition: all ease 0.3s;
+}
+
+/* ---------- RECENTLY VIEWED ---------- */
+#details_recently{
+	margin-bottom: 15px;
+}
+
+#details_recently hr{
+	border-color: rgba(217,224,33,1.00);
+}
+
+.card_bestseller{
+	margin-top: 15px;
+	padding-top: 15px;
+	text-align: center;
+	border: solid 1px rgba(217,224,33,0);
+}
+
+.card_bestseller:hover{
+	border: solid 1px rgba(174,179,26,1.00);
+}
+
+.card_bestseller .img_overflow{
+	display: block;
+	overflow: hidden;
+	width: 100%;
+	height: 255px;
+	margin-bottom: 20px;
+}
+
+.card_bestseller img{
+	width: 100%;
+	height: 255px;
+	object-fit: cover;
+	transition: all ease 0.3s;
+}
+
+.card_bestseller:hover img{
+	transition: all ease 0.3s;
+	transform: scale(1.1);
+}
+
+.btn_buy{
+	padding-bottom: 15px;
+}
+
+.clear_both{
+	clear: both;
+}
+
+.artists{
+	padding: 0 15px 0;
+}
+#details_recently .product_name{
+	text-decoration: none;
+	color: rgba(77,77,77,1.00);
+	transition: all ease 0.3s;
+	text-transform: uppercase;
+}
+
+#details_recently .product_name:hover{
+	transition: all ease 0.3s;
+	color: rgba(174,179,26,1.00);
+}
+
+#details_recently .product_price{
+	font-family: BeVNProLight;
+	padding: 0 15px 0;
+	margin: 0px;
+}
+
+.btn_buy{
+	opacity: 0;
+}
+
+.card_bestseller:hover .btn_buy{
+	opacity: 1;
+}
+	
+
+/* BUTTON: BUY NOW */
+#details_recently .btn_buynow{
+	display: inline-block;
+	text-align: center;
+	color: #4D4D4D;
+	background-color: #D9E021;
+	padding-top: 8px;
+	height: 40px;
+	width: 65%;
+	padding-left: 30px;
+	padding-right: 30px;
+	border-radius: 5px;
+	text-decoration: none;
+	margin-top: 15px;
+	transition: all ease 0.3s;
+	float: left;
+}
+
+#details_recently .btn_buynow:hover{
+	color: #D9E021;
+	background-color: #4D4D4D;
+	transition: all ease 0.3s;
+}
+
+/* BUTTON: ADD TO CART */
+#details_recently .btn_addcart{
+	display: inline-block;
+	text-align: center;
+	color: #4D4D4D;
+	background-color: white;
+	padding-top: 6px;
+	height: 40px;
+	width: 30%;
+	padding-left: 25px;
+	padding-right: 25px;
+	border-radius: 5px;
+	text-decoration: none;
+	margin-top: 15px;
+	transition: all ease 0.3s;
+	float: right;
+	border: solid rgba(77,77,77,1.00) 1px;
+	box-sizing: border-box;
+}
+
+#details_recently .btn_addcart:hover{
+	color: #D9E021;
+	background-color: #4D4D4D;
+	transition: all ease 0.3s;
+}
+
+/* ---------- SHPPING & RETURNS ---------- */
+#details_shipping{
+	margin-bottom: 50px;
+}
+
+#details_shipping hr{
+	border-color: rgba(217,224,33,1.00);
+}
+
+.card_shipping{
+	position: relative;
+	margin-top: 15px;
+}
+
+.card_shipping p{
+	font-size: 14px;
+	margin-bottom: 60px;
+}
+
+.card_shipping a{
+	font-size: 14px;
+	display: inline-block;
+	position: absolute;
+	left: 50%;
+	bottom: 0;
+	transform: translate(-50%);
+	color: rgba(77,77,77,1.00);
+	text-decoration: none;
+	border: solid 1px rgba(174,179,26,1.00);
+	padding: 5px 30px;
+	border-radius: 5px;
+	transition: all ease 0.3s;
+}
+
+.card_shipping a:hover{
+	transition: all ease 0.3s;
+	background-color: rgba(77,77,77,1.00);
+	color: rgba(217,224,33,1.00);
+}
